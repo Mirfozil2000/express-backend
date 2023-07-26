@@ -21,6 +21,10 @@ router.get('/about', (req,res) => {
     })
 })
 
+router.get('/express', (req,res) => {
+    res.send('Finish my website on nodejs express framework')
+})
+
 app.use('/', router);
 
 
